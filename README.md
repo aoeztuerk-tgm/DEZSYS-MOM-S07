@@ -22,7 +22,7 @@ Stoppen kann man den Dienst mit dem Befehl `activemq stop`
 
 Noch bevor ich anfangen konnte, wurde mir der Zugriff auf das GitHub Classroom Repo verweigert.
 
-![image-20210119204822616](C:\Users\aoeztuerk\AppData\Roaming\Typora\typora-user-images\image-20210119204822616.png)
+![repo-error](README.assets/repo-error.png)
 
 Daher habe ich Klassenkollegen gefragt, ob sie mir die Dateien im ursprünglichen Repo senden könnten. Da war der Herr Proschek so lieb und hat mir seins geschickt, weil er auch in dem ursprünglichem Repo nichts gepusht hat. Er hat eigene Repositories verwendet, was ich auch machen werde.
 
