@@ -34,7 +34,7 @@ https://github.com/aoeztuerk-tgm/DezSys-MOM-S07
 
 Zuerst habe ich die WindengineData-Datei von der vorherigen Laborübung genommen und es hier verwendet, damit Windrad-Daten erzeugt werden können. Dabei habe ich auch gleich die Methoden, die in der WindengineSimulation-Datei waren hier implementiert. Zum Schluss habe ich die toString()-Methode überarbeitet und diese so aufgebaut, dass bei einem Aufruf, die Ausgabe im JSON Format erfolgt.
 
-![toString.png](README.assets/toString.png)
+![toString.png](README.assets/toString.PNG)
 
 
 
@@ -44,11 +44,11 @@ Die vorherigen Schritte waren relevant, weil man beim Senden generierte und mög
 
 Beim MOMSender ändert man beim Erstellen der Session bei der destination die Methode createTopic() zu createQueue() um, weil ja eine MessageQueue angefordert wird.
 
-![createQueue](README.assets/createQueue.png)
+![createQueue](README.assets/createQueue.PNG)
 
 Danach fügt man beim Erstellen des Produzenten die WindengineData hinzu. Diese wird beim Erstellen der Nachricht verwendet, um die Daten zu generieren und diese im JSON-Format als String zu senden und auch auszugeben.
 
-![WindengineData](README.assets/WindengineData.png)
+![WindengineData](README.assets/WindengineData.PNG)
 
 ### MOMReceiver
 
